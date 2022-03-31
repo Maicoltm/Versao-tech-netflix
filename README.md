@@ -1,3 +1,3 @@
 # Versao-tech-netflix- Digitalinnovationone
 
-Desafio da Digital Innovation One @felipeaguiarcode
+Desafio da Digital Innovation One @felipeAguiarCode
