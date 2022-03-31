@@ -1,0 +1,108 @@
+:root {
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body {
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/*filme principal*/
+.filme-principal {
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0, 0, 0, .35), rgba(0, 0, 0, .35)), url('../img/robot.jpg');
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .sinopse {
+    margin-bottom: 60px;
+    margin-right: 48%;
+}
+
+.filme-principal .titulo {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.filme-principal .botao {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+    margin-right: 15px;
+    padding: 10px 10px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 10px;
+}
+
+.container {
+    margin-left: 2%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel {
+    margin-top: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, .35), rgba(0, 0, 0, .35)), url('../img/matrixback.jpg');
+}
+.tipo {
+    font-size: 30px;
+    color: rgb(214, 208, 208);
+    margin-left: 10px;
+    padding: 5px;
+}
